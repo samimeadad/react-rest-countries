@@ -1,0 +1,26 @@
+.country-container{
+    background-color:floralwhite;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid orange;
+    border-radius: 25px;
+}
+
+.country-name{
+    color: red;
+    font-weight: bold;
+}
+
+.country-capital{
+    color: blue;
+    font-weight: bold;
+}
+
+.country-population{
+    color: green;
+    font-weight: bold;
+}
+
+.country-flag{
+    width: 50%;
+}
