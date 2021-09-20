@@ -19,7 +19,7 @@ const Countries = () => {
                     countries.map( country => <Country
                         key={country.alpha2Code}
                         country={country}></Country> )
-                };
+                }
             </div>
         </div >
     );
