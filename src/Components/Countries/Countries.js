@@ -13,7 +13,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h1>Total Countries Loaded: {countries.length}</h1>
+            <h1 className="bg-dark text-secondary fw-bold pb-2 mb-4">Total Countries Loaded: {countries.length}</h1>
             <div className="countries-container">
                 {
                     countries.map( country => <Country
