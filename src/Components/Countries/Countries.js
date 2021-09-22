@@ -6,7 +6,7 @@ const Countries = () => {
     const [ countries, setCountries ] = useState( [] );
 
     useEffect( () => {
-        fetch( 'https://github.com/ProgrammingHero1/rest-countries-data/blob/main/coutries.JSON' )
+        fetch( './countries.json' )
             .then( res => res.json() )
             .then( data => setCountries( data ) );
     }, [] );
